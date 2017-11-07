@@ -1,0 +1,168 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  height: 100px;
+  background-color: #fff;
+
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #bb3830;
+}
+
+nav ul a:hover {
+  background-color: #f03f1d;
+  color: #fbfef9;
+}
+
+nav .brand-logo {
+  position: relative;
+  padding: 7px 0 0 0;
+}
+
+nav ul {
+  line-height: 100px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+  }
+
+.brand-img {
+  height: 100%;
+  width: 15%;
+
+}
+
+#intro h1 {
+  color: #bb3830;
+}
+
+#download-button, #registrazione button, #questionario button {
+  background-color: #bb3830;
+
+}
+
+#download-button:hover, #registrazione button:hover, #questionario button:hover {
+  background-color: #f03f1d;
+  font-weight: bold;
+
+}
+
+#servizio h5.center.light, #servizio h2, #app {
+  color: #bb3830;
+}
+
+#email {
+  border-radius: 2px;
+}
+
+.social-icons {
+  margin: 0 8px;
+  font-size: 2em;
+  color: #fff;
+}
+
+.social-icons:hover {
+  color: #bb3830;
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #484848;
+}
+
+@media screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  #intro h1.header.center {
+    font-size: 2.0rem;
+  }
+
+  #intro h4 {
+    font-size: 1.0rem;
+  }
+
+  .parallax-container .section {
+    top:5%;
+  }
+
+  #registrazione h3 {
+    font-size: 2.0rem;
+  }
+
+  #registrazione h5 {
+    font-size: 1.0rem;
+  }
+
+  .side-nav {
+    height: 200px;
+  }
+
+  .side-nav li > a {
+    color: #bb3830;
+  }
+
+  .side-nav li > a:hover {
+    color: #fff;
+    background-color: #f03f1d;
+  }
+
+  nav .button-collapse {
+    float: right;
+    color: #bb3830;
+    margin-top: 10px;
+  }
+
+  .brand-img {width: 40%;}
+
+  nav {height: 80px;}
+
+  #questionario h3 {font-size: 2rem;}
+}
+
+
